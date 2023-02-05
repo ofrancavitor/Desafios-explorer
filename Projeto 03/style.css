@@ -1,0 +1,101 @@
+body {
+  background: #2c2b3d;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  min-height: 90vh;
+}
+#page {
+  width: 1092px;
+  margin: 75px auto 0;
+}
+nav {
+  font-family: 'JetBrains Mono', monospace;
+  color: #fff;
+  font-size: 14px;
+  line-height: 28px;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 101px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 64px;
+
+  list-style: none;
+}
+
+section {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 77px;
+
+  margin-top: 100px;
+}
+
+main {
+  margin-bottom: 157px;
+}
+
+h1 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 36px;
+  line-height: 40px;
+  color: #fff;
+}
+h1 span {
+  color: #00bfa6;
+  font-weight: bold;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p span {
+  color: rgb(0, 191, 166);
+}
+
+footer p {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+footer {
+  text-align: center;
+  margin-top: 27px;
+}
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 568px;
+  height: 0px;
+  margin: 0 auto 8px;
+
+  border: 1px solid rgba(0, 191, 166);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+  color: #3c3c3c;
+}
+
+#padlock {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+/* fav icon design attribuiton */
+.hide {
+  display: none;
+}
